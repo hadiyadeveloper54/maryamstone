@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(bg1.jpg)
+}
+.text{
+    color: white;
+}
+.heading{
+    margin-top: 150px;
+}
+.heading h1{
+    color: white;
+}
+button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(71, 21, 71);
+    border: 2px solid rgb(71, 21, 71);
+    color: white;
+    font-weight: 750;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 100px;
+}
+button:hover{
+    background-color: black;
+    border: 1px solid black;
+}
+.section-1{
+    height: 350px;
+    background-color: white;
+}
+.container h2{
+    font-size: 35px;
+}
+.p{
+    font-weight: 700;
+    color: rgb(71, 21, 71);
+}
+.section-2 h1{
+    color: white;
+}
+.section-2 p{
+    color: white;
+}
+
+.quality figure {
+    background-color: white;
+    border-radius: 1000px;
+    width: 260px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quality figure:hover{
+    background-color: rgb(255, 75, 255);
+}
+.quality:hover{
+    background-color: rgb(71, 21, 71);
+}
+.section-3{
+    color: white;
+    text-align: center;
+}
+.section-3 input{
+    width: 100%;
+    height: 50px;
+    background: none;
+    border: 2px solid white;
+}
+.button button{
+    margin-left: 40%;
+}
+.thanks{
+    margin-left: 50;
+}
+.iconbar div,
+.iconbar a {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.iconbar a:hover {
+    transition: 1s ease;
+    background-color: rgb(71, 21, 71);
+
+}
+
+.iconbar i {
+    margin: auto;
+}
+
+.footer {
+    border-bottom: 2px solid white;
+}
+
+.footer h5 {
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.footer p {
+    margin-top: -10px;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.footer p:hover {
+    cursor: pointer;
+    color: rgb(71, 21, 71);
+    transition: 0.3s ease-in-out;
+}
+
+.footer input {
+    width: 250px;
+    height: 50px;
+    border-radius: 100px;
+    margin-top: 5px;
+    padding-left: 10px;
+    color: gray;
+    border: none;
+}
+
+.copyright {
+    align-items: center;
+
+}
+
+.copyright p {
+    margin-top: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(71, 21, 71);
+}
